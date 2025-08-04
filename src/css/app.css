@@ -1,18 +1,18 @@
 :root {
-  --primary: #003366;
-  --dark-primary: #001a33;
-  --light-primary: #1a4d80;
-  --secondary: #ffd700;
-  --dark-secondary: #b8860b;
-  --light-secondary: #ffec8b;
-  --accent: #cc0000;
-  --gray: #666666;
-  --light-gray: #f5f5f5;
-  --dark-gray: #333333;
-  --error: #cc0000;
-  --success: #006600;
+  --primary: #2c1b47;
+  --dark-primary: #1a1a1a;
+  --light-primary: #3d2c61;
+  --secondary: #ff7518;
+  --dark-secondary: #800080;
+  --light-secondary: #ffcc99;
+  --accent: #ff0000;
+  --gray: #888888;
+  --light-gray: #0d0d0d;
+  --dark-gray: #1f1f1f;
+  --error: #ff0000;
+  --success: #66ff66;
   --warning: #ff8c00;
-  --white: #fff;
+  --white: #f5f5f5;
   --black: #000;
   --height: calc(100vh - 56px);
   --width: 100%;
@@ -24,6 +24,27 @@ body {
   font-family: var(--fontFamily), sans-serif;
   margin: 0;
   padding: 0;
+  color: var(--light-secondary);
+}
+
+.mdl-layout__header {
+  background-color: var(--primary);
+  color: var(--white);
+  box-shadow: 0 0 10px var(--secondary);
+}
+
+.mdl-layout-title {
+  color: var(--secondary);
+  font-weight: bold;
+}
+
+.mdl-navigation__link {
+  color: var(--white);
+  font-weight: 500;
+}
+
+.mdl-navigation__link:hover {
+  color: var(--accent);
 }
 
 .floating-button {
@@ -32,6 +53,16 @@ body {
   bottom: 0;
   right: 0;
   padding: 30px;
+}
+
+.floating-button button {
+  background-color: var(--secondary);
+  color: var(--black);
+  box-shadow: 0 0 10px var(--accent);
+}
+
+.floating-button button:hover {
+  background-color: var(--accent);
 }
 
 #main .card-wide {
@@ -47,10 +78,47 @@ body {
   overflow-y: auto;
   bottom: 0;
   top: 56px;
-  background: white;
+  background: var(--dark-gray);
   text-align: center;
   transform: translateY(100vh);
   transition: transform 0.5s;
+  color: var(--light-secondary);
+}
+
+.mdl-textfield__input {
+  background-color: var(--light-primary) !important;
+  color: var(--white) !important;
+  border: 1px solid var(--secondary);
+}
+
+.mdl-textfield__input::placeholder {
+  color: var(--light-secondary);
+}
+.mdl-textfield.is-focused .mdl-textfield__label,
+.mdl-textfield.is-dirty .mdl-textfield__label {
+  color: var(--light-secondary) !important;
+}
+.mdl-textfield__label {
+  color: var(--light-secondary);
+}
+
+#btn-post-submit {
+  background-color: var(--secondary);
+  color: var(--white);
+  box-shadow: 0 0 5px var(--secondary);
+}
+
+#btn-post-submit:hover {
+  background-color: var(--accent);
+}
+
+#btn-post-cancel {
+  background-color: var(--primary);
+  color: var(--white);
+}
+
+#btn-post-cancel:hover {
+  background-color: var(--dark-secondary);
 }
 
 .svg--container {
@@ -64,6 +132,7 @@ body {
   background-size: cover;
   object-fit: cover;
   color: var(--white);
+  filter: brightness(70%);
 }
 
 .svg--container svg {
@@ -90,17 +159,25 @@ body {
 
 .page--initial i {
   font-size: 4rem;
-  color: var(--white);
+  color: var(--secondary);
   min-width: 70px;
   padding: 10px;
   text-align: center;
 }
 
 .page--initial .description {
-  color: var(--white);
+  background-color: var(--dark-gray);
+  color: var(--light-secondary);
   border-radius: 7px;
-  border: 1px solid rgba(255, 201, 71, 0.5);
+  border: 1px solid var(--secondary);
   margin: 10px 10px;
   padding: 10px;
   width: calc(var(--width) - 20px);
+}
+
+.mdl-card {
+  background-color: var(--dark-primary);
+  color: var(--light-secondary);
+  border: 1px solid var(--secondary);
+  box-shadow: 0 0 10px var(--secondary);
 }
