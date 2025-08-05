@@ -1,6 +1,6 @@
-# 🎃 ESPENotes — Halloween Edition
+#  Desarrollo de una PWA Básica con Elementos de Material Design
 
-ESPENotes es una aplicación web ligera y funcional que permite a los usuarios guardar ideas, imágenes, videos y audios como notas persistentes. Esta versión incluye una interfaz temática de Halloween, con colores oscuros, acentos en naranja y morado, y mensajes terroríficos para una experiencia única.
+**Quick Jot** es una aplicación web desarrollada como PWA que permite a los usuarios tomar notas de forma sencilla y rápida. Ofrece funcionalidad offline, instalación en dispositivos móviles, y una interfaz minimalista ideal para tareas diarias o uso académico.
 
 ## ¿Qué hace este proyecto?
 
@@ -17,6 +17,10 @@ ESPENotes es una aplicación web ligera y funcional que permite a los usuarios g
 - Instalación como aplicación en dispositivos móviles
 - Interfaz responsive y limpia
 -  Código modular y fácilmente integrable
+
+# Video de demostración 
+
+[🔗 Ver video de demostración](https://uespe-my.sharepoint.com/:f:/g/personal/aacampos1_espe_edu_ec/EmbY57H0HzFJuCib9yTHMNABfyARoA_VNyTuae6NhRMAig?e=MSpLT2)  
 
 ## **Instalación**
 
