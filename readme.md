@@ -154,6 +154,19 @@ MIT - Puedes usar libremente este código para fines personales, académicos o c
 - LocalStorage
 
 # Ejecucion 
+- Ejecución  http://192.168.1.18:8080/?# 
+
+![Captura de ejecución](img/eje.png)
+
+- Barra de manegación lateral
+
+![Captura de ejecución](img/eje2.png)
+
+- Publicación de Post y eliminar 
+
+![Captura de ejecución](img/eje3.png)
+
+- Codigo Responsivo 
 
 ![Captura de ejecución](img/respo.png)
 
