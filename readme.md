@@ -19,7 +19,7 @@
 -  Código modular y fácilmente integrable
 
 # Video de demostración 
-Link generado por settings https://arquimides12.github.io/quick-jot/ 
+Link generado por settings ,sitio con GitHub o despliegue (deploy) https://arquimides12.github.io/quick-jot/ 
 
 [🔗 Ver video de demostración](https://uespe-my.sharepoint.com/:f:/g/personal/aacampos1_espe_edu_ec/EmbY57H0HzFJuCib9yTHMNABfyARoA_VNyTuae6NhRMAig?e=MSpLT2)  
 
