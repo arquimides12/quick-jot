@@ -23,6 +23,16 @@ Link generado por settings ,sitio con GitHub o despliegue (deploy) https://arqui
 
 [🔗 Ver video de demostración](https://uespe-my.sharepoint.com/:f:/g/personal/aacampos1_espe_edu_ec/EmbY57H0HzFJuCib9yTHMNABfyARoA_VNyTuae6NhRMAig?e=MSpLT2)  
 
+##  Demostracion del enlace por movil 
+> Página inicial
+![Captura de ejecución](img/movil1.png)
+
+> Agrego de Notas 
+![Captura de ejecución](img/movil2.png)
+
+> Menú Lateral 
+![Captura de ejecución](img/movil3.png)
+
 ## **Instalación**
 
 Para instalar y configurar el proyecto en tu máquina local, sigue estos pasos:
