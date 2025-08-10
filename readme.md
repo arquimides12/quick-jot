@@ -25,7 +25,7 @@ Link generado por settings ,sitio con GitHub o despliegue (deploy) https://arqui
 
 ##  Demostracion del enlace por movil 
 > Página inicial
-![Captura de ejecución](img/movil1.png)
+![Captura de ejecución](img/movil1.jpeg)
 
 > Agrego de Notas 
 ![Captura de ejecución](img/movil2.png)
